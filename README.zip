@@ -1,0 +1,24 @@
+Two identical 2 frame long .crd files, one with atoimage and rms fit first, and the other without.
+cpptraj-ante-MMPBSA.in is used to generate the required inputs for MMPBSA manually (needed if i want to include some explicit waters via a snapshot based distance cutoff)
+
+
+Cpptraj log files for creation of these two trajectories:
+
+# 05/14/21 10:21:35
+parm BRD4-5.prmtop
+trajin traj_100ns_stride10.out 1 1001 1000
+list
+trajout ligand_5_snap1000.crd
+exit
+go
+exit
+# 05/14/21 10:22:45
+parm BRD4-5.prmtop
+trajin traj_100ns_stride10.out 1 1001 1000
+autoimage
+rms fit first
+trajout ligand_5_snap1000_rmsfit_autoimage.crd
+go
+exit
+
+

@@ -1,0 +1,1 @@
+MMPBSA.py -O -i mmpbsa.in -cp ComplexWater_2_BRD4-5.prmtop -rp HostWater_2_BRD4-5.prmtop -lp Ligand_2_BRD4-5.prmtop -y ComplexWater_2_BRD4-5.rst7

@@ -1,0 +1,15 @@
+parm BRD4-5.prmtop
+trajin ligand_5_snap1000.crd 2 2 
+strip :WAT,Cl-,Na+ parmout ComplexWater_2_BRD4-5.prmtop nobox
+trajout ComplexWater_2_BRD4-5.rst7 nobox
+trajout ComplexWater_2_BRD4-5.pdb nobox
+go
+parm ComplexWater_2_BRD4-5.prmtop
+parmstrip :122 parmindex 1
+parmwrite out HostWater_2_BRD4-5.prmtop parmindex 1
+go
+parm ComplexWater_2_BRD4-5.prmtop [copy]
+parmstrip !(:122) parmindex 2
+parmwrite out Ligand_2_BRD4-5.prmtop parmindex 2
+go
+exit

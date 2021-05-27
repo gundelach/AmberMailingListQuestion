@@ -1,0 +1,117 @@
+| Run on Fri May 14 10:26:01 2021
+|
+|Input file:
+|--------------------------------------------------------------
+|MM-PBSA, using deafult settings, two term non-polar term with default parameters for this opt scheme
+|&general
+|startframe=1, endframe=1,
+|verbose=2, keep_files=0,
+|/
+|&pb
+|npbverb=1,
+|fillratio=4.0, inp=2 , 
+|radiopt=1,
+|cavity_offset=-0.5692, cavity_surften=0.0378,
+|/
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           ComplexWater_2_BRD4-5.prmtop
+|Receptor topology file:          HostWater_2_BRD4-5.prmtop
+|Ligand topology file:            Ligand_2_BRD4-5.prmtop
+|Initial mdcrd(s):                ComplexWater_2_BRD4-5.rst7
+|
+|Receptor mask:                  ":1-121"
+|Ligand mask:                    ":122"
+|Ligand residue name is "08H"
+|
+|Calculations performed using 1.0 complex frames.
+|Poisson Boltzmann calculations performed using internal PBSA solver in mmpbsa_py_energy
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+POISSON BOLTZMANN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                       363.4731                0.0000              0.0000
+ANGLE                     1028.4360                0.0000              0.0000
+DIHED                     1697.9233                0.0000              0.0000
+VDWAALS                  -1013.7336                0.0000              0.0000
+EEL                      -8933.4141                0.0000              0.0000
+1-4 VDW                    490.0877                0.0000              0.0000
+1-4 EEL                   5497.1090                0.0000              0.0000
+EPB                      -1713.2853                0.0000              0.0000
+ENPOLAR                   1066.8508                0.0000              0.0000
+EDISPER                   -667.6629                0.0000              0.0000
+
+G gas                     -870.1186                0.0000              0.0000
+G solv                   -1314.0974                0.0000              0.0000
+
+TOTAL                    -2184.2160                0.0000              0.0000
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                       354.9667                0.0000              0.0000
+ANGLE                     1002.8827                0.0000              0.0000
+DIHED                     1688.0065                0.0000              0.0000
+VDWAALS                   -981.5316                0.0000              0.0000
+EEL                      -8883.6539                0.0000              0.0000
+1-4 VDW                    477.5887                0.0000              0.0000
+1-4 EEL                   5442.0747                0.0000              0.0000
+EPB                      -1714.5525                0.0000              0.0000
+ENPOLAR                   1057.3772                0.0000              0.0000
+EDISPER                   -671.1798                0.0000              0.0000
+
+G gas                     -899.6662                0.0000              0.0000
+G solv                   -1328.3551                0.0000              0.0000
+
+TOTAL                    -2228.0213                0.0000              0.0000
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                         8.5064                0.0000              0.0000
+ANGLE                       25.5533                0.0000              0.0000
+DIHED                        9.9169                0.0000              0.0000
+VDWAALS                     -4.5054                0.0000              0.0000
+EEL                        -40.3288                0.0000              0.0000
+1-4 VDW                     12.4991                0.0000              0.0000
+1-4 EEL                     55.0343                0.0000              0.0000
+EPB                        -17.5085                0.0000              0.0000
+ENPOLAR                     33.3516                0.0000              0.0000
+EDISPER                    -31.8957                0.0000              0.0000
+
+G gas                       66.6758                0.0000              0.0000
+G solv                     -16.0526                0.0000              0.0000
+
+TOTAL                       50.6232                0.0000              0.0000
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                        -0.0000                0.0000              0.0000
+ANGLE                       -0.0000                0.0000              0.0000
+DIHED                       -0.0001                0.0000              0.0000
+VDWAALS                    -27.6966                0.0000              0.0000
+EEL                         -9.4314                0.0000              0.0000
+1-4 VDW                     -0.0001                0.0000              0.0000
+1-4 EEL                      0.0000                0.0000              0.0000
+EPB                         18.7757                0.0000              0.0000
+ENPOLAR                    -23.8780                0.0000              0.0000
+EDISPER                     35.4126                0.0000              0.0000
+
+DELTA G gas                -37.1282                0.0000              0.0000
+DELTA G solv                30.3103                0.0000              0.0000
+
+DELTA TOTAL                 -6.8179                0.0000              0.0000
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
